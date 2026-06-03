@@ -1,0 +1,41 @@
+.header{
+  background-image: url(https://www.shutterstock.com/image-photo/empty-wooden-table-bokeh-light-600nw-2659638455.jpg); 
+  background-size: cover;
+  font-size: 20px;
+}
+
+
+h1{
+    color: black;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-decoration-line: underline;
+    margin-top: 80px;
+}
+.box{
+    width: 25vw;
+    height: 60vh;
+    border: 4px solid rgba(22, 22, 98, 0.611);
+    border-radius: 15px;
+    margin: auto;
+    position: relative;
+    background-color: rgb(180, 117, 239);
+   
+}
+img{
+    width: 98%;
+    height: 60%;
+    margin: auto 5px;
+    object-fit: cover;
+    border-radius: 15px;
+
+     
+}
+p{
+    color: red;
+    margin-top: 30px;
+    font-size: 25px;
+    margin-left: 200px;
+
+}

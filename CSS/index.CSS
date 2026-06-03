@@ -1,0 +1,16 @@
+.header{
+    text-align: center;
+    color: rgb(9, 9, 106);
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form{
+    width: 30vw;
+    height: 50vh;
+    border-radius: 15px;
+    border: 2px solid gray;
+    margin: auto;
+    padding: 20px;
+    background-color: aqua;
+
+}

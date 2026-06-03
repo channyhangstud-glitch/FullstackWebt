@@ -1,0 +1,129 @@
+.containner{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 500px;
+    gap: 30px;
+    padding: 20px;
+    background-color: antiquewhite;
+    top: 100px;
+
+    
+}
+.card{
+    
+    background-color: rgb(65, 49, 244);
+    border-radius: 10px;
+    border: 1px;
+    box-shadow: 0 0 10px;
+    flex-direction: column;
+    height: 75vh;
+    width: 23vw;
+    overflow: hidden;
+    display:flex
+    
+}
+.box_image{
+    border-radius: 10px, 10px, 0 0;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.box_image>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+}
+.tile{
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    height: 50%;
+}
+.name{
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(195, 38, 18);
+
+}
+.price{
+   font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(219, 36, 16);
+     
+}
+.icon{
+color:rgb(181, 156, 19) ;
+}
+.button{
+   border: none;
+   border-radius: 5px;
+   background-color: rgb(26, 102, 12);
+   width: 98%;
+   height: 25px; 
+   margin:  auto;
+   text-align: center;
+   font-size: 20px;
+   margin-top: 8px;
+}
+.description{
+    font-size: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blanchedalmond;
+    font-weight: bold;
+}
+.navbar{
+    width: 97%;
+    height: 60px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 0 0 5px gray;
+    display: flex;
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(105, 224, 72);
+    position: fixed;
+    margin-top: 5px;
+    
+
+}
+
+.logo{
+    width: 90px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+.logo>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    
+    
+}
+.name_Shop{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: rgb(152, 12, 12);
+    
+}
+.List_item{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 30px;
+}
+.item{
+    font-size: 25px;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+

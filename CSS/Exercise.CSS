@@ -1,0 +1,93 @@
+.tex_box{
+     border: 1px solid gray;
+     width: 50%;
+     height: 60vh;
+      margin: auto;
+}  
+.item{
+    width: 99%;
+    height: 10vh;
+    background-color: rgb(12, 196, 196);
+    overflow: hidden;
+    border: 1px solid rgba(8, 25, 103, 0.975);
+    margin-top: 5px;
+    margin: auto;
+    
+   
+}
+.item >header{
+    height: 10vh;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(75, 9, 137);
+}
+.navigation{
+   width: 99%;
+    height: 10vh;
+    background-color: rgb(234, 234, 124);
+    overflow: hidden;  
+    margin-top: 50px;
+    border: 1px solid orangered;
+    margin: auto;
+
+}
+.navigation >nav{
+    text-align: center;
+    height: 10vh;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(75, 9, 137);
+}
+.main_box{
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    width: 99%;
+    height: 50%;
+    border: 1px solid rgba(54, 190, 224, 0.115);
+    margin: auto;
+    margin-top: 5px;
+    
+   
+}
+
+.content{
+   background-color: aqua;
+   border: 2px solid gray;
+    margin-left: 5px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.main{
+   
+    background-color: aqua;
+    border: 2px solid gray;
+    margin-left: 5px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Con{
+   
+    background-color: aqua;
+    border: 2px solid gray;
+    margin-left: 5px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.name{
+    width: 98%;
+    border: 2px solid gray;
+    margin: auto;
+    height: 10%;
+    margin-top: 5px;
+    background-color: blueviolet;
+}
+.footer{
+    margin-left: 300px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 10px;
+}

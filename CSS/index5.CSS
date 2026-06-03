@@ -1,0 +1,73 @@
+.card{
+    width: 30vw;
+    height: 90vh;
+    border: 2px solid gray;
+    border-radius: 15px;
+    margin: 60px auto;
+     
+}
+.box_img{
+    width: 100%;
+    height: 75%;
+    border-radius:  15px 15px 0px 0px ;
+    border:1px solid green;
+    overflow: hidden;
+    position: relative;
+    
+}
+.box_img>img{
+    width: 100%;
+    height: 100%;
+}
+.discount{
+   width: 70px;
+   height: 40px; 
+   background-color: rgb(217, 24, 24);
+   margin-top: 5px;
+   position: absolute;
+   margin-left: 10px;
+   top: 10px;
+   font-size: 20px;
+}
+.title{
+    width: 100%;
+    height: 25%;
+    margin: auto;
+    background-color: rgb(97, 213, 61);
+    
+}
+.title>span{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+}
+.title>span:hover{
+    color: rgb(84, 4, 74);
+}
+.title>Discription{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.title >button{
+    width: 100%;
+    height: 15%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(30, 232, 71);
+    font-size: 20px;
+    color: rgb(5, 5, 106);
+    
+}
+.title >button:hover{
+    background-color: rgb(196, 91, 91);
+     transform:translateY(-3px);
+}
+.box_img>img:hover{
+    transform:scale(1.05);
+}
+.header{
+    background-image: url(https://png.pngtree.com/background/20250316/original/pngtree-explore-trendy-fashion-in-a-sleek-minimalist-clothing-store-picture-image_16371478.jpg);
+    background-size: cover;
+
+}
